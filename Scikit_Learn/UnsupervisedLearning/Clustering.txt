@@ -1,0 +1,21 @@
+Grouping similar things based on patterns.
+Clustering doesnt predicts the values, it predicts the category  to which input belongs to.
+
+Mean and Centroid:
+Mean = Average of data.
+Centroid = Geometric center of a group of points.(Mean of all coordinates)
+
+So,clustering means group of entites and their center is centroid.
+
+Distance:
+A new input value comes now it have own set of attributes
+We need to find that new input belongs to which cluster/group so 
+in this the input set of attribute and the centroids of all the groups between these two 
+distance will be calculated and shortest one will be the answer that the input belongs to this group.
+
+Variance and Spread:
+Spread : How far are data points from each other.
+Variance : How much the data varies from its mean value.
+So groups are formed according to variance, spread and distance is used for searching.
+
+Vectors are used to compress set of parameter of an entity to a only strongest changed attributes.

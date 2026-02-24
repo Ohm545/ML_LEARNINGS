@@ -1,0 +1,82 @@
+We have both input and output to data as labeled dataset.
+Used for:
+1. Predict numbers
+2. Predict categories
+
+There are many ML algos in the Supervised ML:
+1. Regression
+2. Classification
+
+Regression:
+It is used to make a prediction of number.
+Algorithm used : Linear Regression
+Classification:
+It predicts category in yes no like given input 
+belongs to the category or not.
+Algorithms used : Logistic Regression, KNN, Decision three
+
+First decide type of output:
+1. Regression 
+2. Classification
+
+1. Linear Regression:
+Its find a best line that fits the data
+
+Internally: model computes weights, compute prediction, calculate errors, use gradient descent to reduce error
+and then again update the weights, repeats this process until best match not found.
+
+When to use?
+Need to predict number, Baseline is given, small to medium dataset.
+
+2. Logistic Regression:
+Instead of predicting number, it predicts probability:
+
+P(y=1) = 1/1(1+(e)^(-z)) -> Sigmoid
+
+Internally, model compute linear combination, pass through sigmoid, get prob, use cross-entropy loss, optimize with gradient descent
+
+When to use?
+Binary Classification, Linear boundary, interpretable model.
+
+KNN:
+No training in traditional sense.
+Internally, it stores all training data, when new point comes it compute distance to all points
+pick k closest, majority vote.
+Used when:
+Small dataset, accuracy not matter.
+
+Decision Tree:
+Rule based.
+Internally split the data on feature, calculate impurity, choose best split, repeat recursively.
+Used when:
+Non-linear relationship
+
+====>fit()/predict()
+fit() 
+To train the model, learn parameters
+It learn from the parameters which are passed into.
+Incase of 
+1. Linear Regression:
+It tries to find best values of y = mx + c
+so it searches for best possible value of m and c.
+2. logistic regression:
+y​=sigmoid(wx+b) it tries to find best values of w and b.
+3. Decision Tree:
+Using fit it tries all split and from that pic the best one.
+4. KNN:
+Using fit it does almost nothing, it just stores training data.
+
+Predict():
+Use what you have learned and make prediction for this input value.
+
+Cycle of training:
+1. Collect Labeled Data 
+ x-> input features 
+ y-> correct answers / labels
+2. Preprocess the Data
+3. Decide Regression/Classification 
+4. Decide Algo
+5. Train the model
+6. Make predictions
+7. Evaluate performance
+8. Refine Model

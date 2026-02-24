@@ -1,0 +1,18 @@
+We will judge the model by mistake numbers.
+1. MAE - Mean absolute error 
+On an avergae model is wrong by how much units
+2. MSE - Mean squared error
+Here larger error get punished more and small errors dont dominate 
+Used when we are looking for larger errors and ignoring the small errors
+3. RMSE - Root mean square error
+Root of MSE, along with large it also consider small errors.
+
+Use MAE when:
+You want simple average error
+Outliers not very important
+Use MSE when:
+You want to heavily punish large errors
+Outliers matter
+Use RMSE when:
+You want squared punishment
+But still want understandable unit

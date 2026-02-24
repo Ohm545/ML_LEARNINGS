@@ -1,0 +1,23 @@
+Foundation of ML:
+->Machine learning means it detects the patterns between the input and output while training 
+and then for new inputs based on detection that pattern it will make predictions.
+
+Types of ML:
+Generally, there are three types of ML
+1. Supervised learning (When output is knwonw and data is labeled)
+2. Unsupervised learning (Unlabeled dataset and no output is known, cluster making based on pattern)
+3. Reinforcement learning (For agents to make decisions through interaction with environment)
+
+Labeled -> Expected output attached with an input
+Unlabeled -> Only input is given no output is attached.
+
+Input - X - Input given to the model
+Output - y -  Output
+Model - Rule to predict / Function to predict to output for a given input.
+Training - To decide the fucntion / rules of the model.
+Testing - Giving new data as input.
+Prediction - Output of model for the new input data.
+
+Sickit_Learn:
+It gives ready made model, inbuilt functions, data cleaning and all other requirements for training a model
+included in sickit_learn we just need to import it and use it.

@@ -1,0 +1,8 @@
+What is Elbow method?
+The optimal number of clusters in K-Means.
+If we increases k, clusters become smaller, points are closer to centroid.
+But we cannot increases K randomly.
+Run k-means for different values of K 
+For each K compute variance 
+Plot the graph X-axis - K , Y-axis - Variance
+Look for a point where curve bends sharply. (Look like an elbow)

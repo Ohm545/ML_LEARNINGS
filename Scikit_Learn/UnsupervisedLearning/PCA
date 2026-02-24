@@ -1,0 +1,5 @@
+Principle component analysis:
+PCA is dimensionality reduction technique.
+It reduces number of features, while keeping maximum important information.
+PCA tries to find the direction where data varies the most.
+It keeps high variance feature as it have more information. 

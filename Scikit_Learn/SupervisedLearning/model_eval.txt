@@ -1,0 +1,10 @@
+classification matrix -> confusion matrix -> regression matrix -> sklearn matrix
+
+
+Classification matrix:
+1. Accuracy 
+    acc = (correct_pred / total_pred) * 100
+2. Precision = true_positive / total_pred_pos
+3. Recall = true_pos / total_actual_pos
+4. F1 score -> harmonic mean of Precision and Recall
+( is the model good at detecting actual postitives without making false arams )

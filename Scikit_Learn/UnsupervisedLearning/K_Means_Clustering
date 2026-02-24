@@ -1,0 +1,12 @@
+What is K_means_clustering? 
+We have unlabeled data, but we need to group the data, so we want that machine automatically figure out the groups. 
+Identifies patterns and as per patterns it form the groups. 
+
+Step 1: we will specify the number of groups we want to make.
+Step 2: Initialize Centroids Randomly 
+Step 3: Assign Points to nearest centroid
+Step 4: Update the centroid of each group.
+Step 5: Repeat
+
+K_MEANS_CLUSTERING tries to minimize within_cluster variance.
+That means points inside that cluster should be closed enough to the centroid.

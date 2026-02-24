@@ -1,0 +1,3 @@
+Now we dont have output or labels along with inputs.
+We will perform grouping based on similarities.
+As per patterns model will try grouping.

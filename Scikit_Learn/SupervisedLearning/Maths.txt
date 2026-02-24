@@ -1,0 +1,45 @@
+Why to learn Math?
+To understand the models, working of models.
+To debug effectively 
+To train as real scientist, proper thinking model.
+
+ML = Finding a proper function that maps input -> output by minimizing errors.
+
+So in finding the correct function and minimizing the errors we need mathematics.
+
+Mean-Median-Mode:
+Mean: Average of data.
+Median: Middle values.
+Mode: Most freqeunet data.
+
+y_true = what really happened
+y_pred = what our model thinks 
+
+Also used to clean the data remove outliers.
+
+Accuracy = (Corrected predictions/Total predictions) * 100
+Precision = (True Positives/Total predicitive Positives)
+Recall = (True Positives/ Total Actual Positives)
+
+Percentage = out of 100
+ration = comparison 
+
+Linear Algebra:
+y = mx + c
+y -> prediction / output
+x -> input
+m -> rate of change ( how output varies with input )
+c -> starting point ( base value of output )
+
+Vectors:
+Poistion of point in a plane
+List of number that describes the detail of the thing
+==>(and the dimension of plane depends upon the number of attributes required to define that thing)
+Whole entity in ML is stored as a Vector, So dataset is bunch of Vectors
+
+Standard deviation:
+How much data is spread out. 
+Low SD = data is not much spread out.
+High SD = data is much spread out.
+To analyze that how much consistent is dataset.
+To prepare dataset, normalize it and outline cleaners.

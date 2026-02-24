@@ -1,0 +1,5 @@
+1. TP - True positive - CG 
+2. TN - True negative - CG
+3. FP - False positive - WG 
+4. FN - False Negative - WG 
+[[TN,FP],[FN,TP]]

@@ -1,0 +1,4 @@
+Over fiting -> Model adapt a particular pattern much deeply 
+that it cant predict the accurate ans for other pattern even though it is correct.
+Under fiting -> Model has adapt insufficent patterns.
+Good fiting -> Model adapt pattern correctly now it is ready to face new inputs also.

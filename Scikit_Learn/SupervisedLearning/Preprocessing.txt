@@ -1,0 +1,29 @@
+Why it is required ?
+Data can be raw and not always prepared data.
+How it can be done ?
+Handle missing data -> Encode Categorical Value -> Feature Scaling -> Split Data
+
+Sometime a row or a col might have missing data.
+We need to encode the data in the particular category.
+We need to standardize the data so that model cant be confused.
+We have data from that we use some for training and some for testing.
+
+Before training data, always do preprocessing of data.
+
+Ways to handle the missing values:
+1. Drop NA-> drop that record
+2. Fill NA -> fill that Null value with proper value provided.
+
+Encoding:
+1. Label Encoding (encode the category / group)
+2. One hot encoding (encode each entity each category will have diff col and accordingly 0/1 will be assigned)
+
+Model doesnt works on textual data, so we need to encode the text with number.
+
+Feature Scailing:
+It put all the numerical values in the same range of values to avoid confusion 
+1. Standard Scaler (Set mean = 0 and Standard deviation = 1)
+2. Min-Max Scaler (Min becames 0 and max becames 1)
+
+Outliers are there  -> use Standard Scaler 
+Otherwise use min-max scaler.
