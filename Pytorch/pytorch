@@ -1,0 +1,24 @@
+Why Pytorch?
+It helps builds the model.
+It helps in training the model
+It helps in making predictions
+It helps in fixing errors.
+
+Model:
+It takes input, and make predictions.
+Training:
+Using data model adapts the patterns to make guess.
+Training loop:
+Get train -> check mistakes -> try to fix it and repeat it.
+Prediction:
+Result/Output of model.
+Loss:
+How much wrong is model.
+Optimizer:
+Fix the model after finding the loss.
+Parameters:
+These are the number that model learns and adjust to fix the loss.
+Batch:
+While training we dont feed all data at once. We split the data into smaller chunks. That chunks is batch.
+Epoch:
+It means model has seen all training data how many times.

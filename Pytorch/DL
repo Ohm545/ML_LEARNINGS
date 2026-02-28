@@ -1,0 +1,17 @@
+Why Deep Learning is needed ?
+For image, voice, audio Traditional ML struggles.For every number 
+we need to clarify that this is this part, which is nightmare.
+No specific rules generally for audio, image, voice etc...
+So, instead of teaching patterns, machine by itslef learn the pattern using neural networks.
+
+Neural Network:
+Network of layers, each layer process different part of data and make final decision.
+
+Deep learning does not understand meaning, it only learns statistical correlations.
+It only knows patterns that frequently occur together.
+This is called adversarial vulnerability.
+
+It cannot do reasoning, It needs massive data.
+
+Flow: 
+Data -> Model -> Prediction Pipeline.

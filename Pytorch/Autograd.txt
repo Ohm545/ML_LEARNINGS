@@ -1,0 +1,28 @@
+Learning:
+Guess-> Measure -> Automatically fix-> Apply
+
+1. Required Grad:
+ -> Some parameters are fixed and some parameters may changed which create impact in making decision for an entity,
+ we need to specify explicitly to pytorch that this parameter will create impact.
+
+2. Computational graph:
+To fix the error we need the location/step where the error occurs.
+Pytorch creates hidden graph automatically to track this.
+
+3. Backward:
+Who is responsible for error and how much by back tracking in the computational graph.
+It computes derivatives using backpropagation.
+ 1. Makes Prediction.
+ 2. Calulate errors.
+ 3. Adjusts weights to reduce the errors.
+And value will be stored in parameter.grad
+.backward() computes derivative of output w.r.t input.
+parameter.grad > 0 -> dec the value of parameter
+parameter.grad < 0 -> inc the value of parameter
+
+Gradient:
+Gradient descent
+It improves the number.
+We need to provide the rate at which we need to change the value of the number that is learning rate.
+
+w = w - n*w.grad

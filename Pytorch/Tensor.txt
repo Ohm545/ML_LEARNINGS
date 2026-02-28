@@ -1,0 +1,19 @@
+What is tensor ?
+A tensor is just a generlization of numbers and arrays.
+A way to represent the numbers.
+A smart box of number from which pytorch can learn.
+Scalar -> It is a way to represnt single number 
+Vector -> 1D array
+Matrix -> 2D array
+Tensor -> N dimensional Array
+
+Tensor support efficient GPU operations, they allow automatic
+differentiation, store shape, datatype, gradient info. Also enable large scale linear algebra.
+
+Deep learning or neural networks are basically massive
+matrix multiplications and matrix multiplicatin is tensor math.
+
+Unlike normal arrays, tensor keep tracks of shape, device, data type, gradient is req or not, computational graph history.
+
+Tensors and Numpy shares memory, changes perform in one get applied to other one also.
+Both points to same memory location.
